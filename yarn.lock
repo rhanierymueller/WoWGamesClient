@@ -14852,6 +14852,7 @@ __metadata:
     react-dom: 17.0.2
     storybook-addon-next-router: ^3.0.8
     styled-components: 5.3.3
+    styled-media-query: ^2.1.2
     typescript: ^4.5.5
     webpack: 5.68.0
   languageName: unknown
@@ -16743,6 +16744,15 @@ __metadata:
     babel-plugin-macros:
       optional: true
   checksum: 4958238ac8b8e90ac7d906aca3821e3ffb0c70c34c78b87d27f0f11c830c8237c8f4c0e7952dc51373d6fa097b16a023dcc7c9ededd402d8483b5ed2d8cefda9
+  languageName: node
+  linkType: hard
+
+"styled-media-query@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "styled-media-query@npm:2.1.2"
+  peerDependencies:
+    styled-components: ">= 1"
+  checksum: b8b20fc1667f98f0a7f55646486e936703f1a6530cd436c24038bf46c59eefe7a2988c850828a8d92615bc36515edcb2c5e3f9c0a9a28e206f14ab33ea95c364
   languageName: node
   linkType: hard
 
