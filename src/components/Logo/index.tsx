@@ -1,5 +1,4 @@
 import * as S from './styles'
-// => currentColor  => assume a cor que o wrapper tiver
 
 export type LogoProps = {
   color?: 'white' | 'black'
@@ -88,4 +87,5 @@ const Logo = ({
     </svg>
   </S.Wrapper>
 )
+
 export default Logo

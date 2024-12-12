@@ -1,10 +1,12 @@
 import * as S from './styles'
+
 export type HeadingProps = {
   children: React.ReactNode
   color?: 'white' | 'black'
   lineLeft?: boolean
   lineBottom?: boolean
 }
+
 const Heading = ({
   children,
   color = 'white',
@@ -15,4 +17,5 @@ const Heading = ({
     {children}
   </S.Wrapper>
 )
+
 export default Heading
